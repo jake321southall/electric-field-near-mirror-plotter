@@ -19,8 +19,6 @@ To understand how this equation is derived, please see our [paper](https://www.t
 ## Features
 The program in E_exp_plotter_final.py initializes time at *t=0* and increases by a value after each plot that is specified by the user in the script. The value of Omega can also be changed in the script.
 
-How to use: Here, you should write step-by-step instructions on how to install and use your project. 
-Any software or package requirements should also be listed here.
 ## How to use
 Packages used are matplotlib.pyplot and numpy. I used spyder to run my python code.
 
