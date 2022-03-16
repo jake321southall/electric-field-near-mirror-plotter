@@ -1,9 +1,5 @@
 # Electric field near mirror plotter
 
-Description: This is an extremely important component of the README. You should describe the main purpose of your project. 
-Answer questions like “why did you build this project?” and “what problem(s) does it solve?”. 
-It also helps to include your motivations for the project and what you learned from it.
-
 ## Description
 The main purpose of this project is to plot the equation 
 
@@ -18,16 +14,14 @@ and
 ![third equation](https://latex.codecogs.com/gif.latex?x_t%3Dx-ct%5C%2C%2C%5C%2C%5C%2Cx_%7B-t%7D%3Dx&plus;ct%5C%2C.)
 
 The above equation represents the electric field expectation value of a coherent state in the presence of a mirror, in a fully quantum setting. We found that the results reproduce the classical dynamics of a sinusoidal wave in the presense of the mirror and this project gives a nice visual representataion of this behaviour.
-To understand how this equation is derived, please see our [paper](https://www.tandfonline.com/doi/full/10.1080/09500340.2021.1936241).
+To understand how this equation is derived, please see our [paper](https://www.tandfonline.com/doi/full/10.1080/09500340.2021.1936241); it requires a good understanding of quantum optics!
 
-
-Features: If your project has multiple features, list them here. Don’t be afraid to brag if your project has unique features that make it stand out. 
-You can even add screenshots and gifs to show off the features.
 ## Features
+The program in E_exp_plotter_final.py initializes time at *t=0* and increases by a value after each plot that is specified by the user in the script. The value of Omega can also be changed in the script.
 
 How to use: Here, you should write step-by-step instructions on how to install and use your project. 
 Any software or package requirements should also be listed here.
 ## How to use
+Packages used are matplotlib.pyplot and numpy. I used spyder to run my python code.
 
-Technologies: List all the technologies and/or frameworks you used and what purpose they serve in your project.
-## Technologies
+
